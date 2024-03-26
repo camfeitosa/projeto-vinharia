@@ -21,7 +21,7 @@ ul li{
   list-style: none;
 }
 
-.container-banner{
+#container-banner{
 
   width: 100%;
   height: 100vh;
@@ -140,11 +140,11 @@ section, footer{
   
 }
 
-.container-vinhos img{
+#container-vinhos img{
   width: 350px;
 }
 
-.container-vinhos h2{
+#container-vinhos h2{
   font-family: 'Cinzel Decorative';
   font-size: 26px;
 }
