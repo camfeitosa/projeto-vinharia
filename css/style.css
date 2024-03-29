@@ -22,6 +22,8 @@ ul li{
   list-style: none;
 }
 
+/* Header */
+
 #container-banner{
 
   width: 100%;
@@ -67,7 +69,7 @@ nav button{
 }
 
 .logo {
-    width: 6%;
+    width: 7%;
     text-align: center;
     border-radius: 100%;
     overflow: hidden;
@@ -99,9 +101,6 @@ nav ul li{
   gap: 2rem;
 }
 
-/* .cor{
-
-} */
 
 .content h1{
   color: #fff;
@@ -113,22 +112,9 @@ nav ul li{
   font-family:"Cinzel Decorative", serif;
 }
 
-.content button{
-  color: #fff;
-  border: 2px solid #fff;
-  font-size: 20px;
-  font-weight: 600;
-  border-radius: 50px;
-  padding: 1rem;
-  cursor: pointer;
-  background-color: #f2f2f23d;
-}
+/* Section */
 
-.content button:hover{
-  background-color: transparent;
-}
-
-section, footer{
+section{
   max-width: 1300px;
   height: 100vh;
   margin: auto;
@@ -137,33 +123,32 @@ section, footer{
 
   display: flex;
   flex-direction: column;
-  gap: 4rem;
-  
+  gap: 5rem;
+
 }
 
-#container-vinhos img, h3{
+/* Mais vendidos */
+
+#container-vinhos img, #container-vinhos h3{
   width: 120px;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 #container-vinhos h2{
-  font-family: 'Comfortaa';
+  font-family:"Cinzel Decorative", serif;
   font-size: 40px;
   margin-bottom: 0;
   text-align: center;
   margin-top: 20px;
-
 }
-
 
 .container-cards{
   display: flex;
-  /* gap: 1rem; */
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
   background-color: #1c1c1e98;
-  height: 60vh;
+  height: 70vh;
   padding: 1rem;
   border-radius: 10px;
 }
@@ -175,7 +160,7 @@ section, footer{
   height: 60vh;
 }
 
-.cards h3, p{
+.cards h3, .cards p{
     margin-top: 10px;
     margin-bottom: 5px;
     font-family: 'old-standard tt';
@@ -188,9 +173,71 @@ section, footer{
 }
 
 
+/* Cadastro */
+
+.cadastro{
+  align-items: center;
+  max-width: 1300px;
+  height: 560px;
+  border-radius: 30px 30px 0 0;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-cadastro{
+  background: linear-gradient(90deg, rgba(43,11,11,1) 0%, rgba(155,6,0,1) 62%, rgba(43,11,11,1) 100%);  width: 100%;
+  height: 60%;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-cadastro img{
+  width: fit-content;
+  height: 100%;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.content-cad{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.seta{
+  padding: 4rem;
+}
+
+.button-style{
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #f2f2f23d;
+}
+
+.button-style:hover{
+  background-color: transparent;
+}
+
+/* Responsividade */
+
 @media only screen and (max-width: 1200px) {
   #video{
     height: 100%;
+    overflow: hidden;
   }
 }
 

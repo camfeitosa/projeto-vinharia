@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/logo.png">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/card-sobre.css">
+  <title>Home</title>
 </head>
 <body>
 
@@ -21,14 +24,14 @@
       <ul>
         <li><a href="#container-banner">Home</a></li>
         <li><a href="#container-vinhos">Mais vendidos</a></li>
-        <li><a href="#">Teste</a></li>
+        <li><a href="./sobre.html">Sobre</a></li>
       </ul>
-      <button>Entrar</button>
+      <button><a href="./form.html">Entrar</a></button>
     </nav>
 
     <div class="content">
       <h1>Projeto Vinharia</h1>
-      <button>Conheça os vinhos</button>
+      <button class="button-style">Conheça os vinhos</button>
     </div>
 
   </header>
@@ -60,18 +63,73 @@
           </a>
         </div>
       </div>
-
-      
     </section>
 
-    <section id="">
+    <section class="sobre">
+      <h2>Sobre a vinícola Agnello</h2>
 
+      <div class="content-container">
+          <div class="vinho-imagem">
+            <img src="./img/teste.png" alt="imagem">
+            <p class="frase frase1">Experiência do Cliente</p>
+            <p class="frase frase2">Qualidade dos vinhos</p>
+            <p class="frase frase3">Ambiente acolhedor</p>
+            <p class="frase frase4">Experiência Sensorial</p>
+            <p class="frase frase5">Selecionados</p>
+            <p class="frase frase6">Degustações</p>
+          </div>
+
+          <div class="text-box">
+              <h3>O que torna a agnello especial</h3>
+              <p> Descubra a magia do vinho na Agnello - onde cada garrafa é uma história esperando para ser contada! Com uma seleção cuidadosamente curada e especialistas prontos para guiá-lo, nossa vinheria é o destino perfeito para os amantes de vinho. Visite-nos pessoalmente em nossa loja encantadora ou explore nossa plataforma online e embarque em uma jornada sensorial inesquecível.</p>
+              <a href="sobre.html" class="saberMais-btn">Saiba mais</a>
+          </div>
+          
+      </div>
+      
+    </section>
+    
+    <section class="cadastro">
+      <div class="container-cadastro">
+        <img src="./img/img1.jpg" alt="vinho">
+
+        <div class="content-cad">
+          <h2>Realize o cadastro e inicie suas compras</h2>
+          <button class="button-style"><a href="./form.html">Cadastre-se</a></button>
+        </div>
+
+         <div class="seta">
+           <img src="./img/arrow-left.svg" alt="seta">
+         </div>
+
+      </div>
     </section>
 
   </main>
 
-  <footer class="rodapé">
-    
+  <footer class="rodape">
+    <div class="container-footer">
+      <div class="nome-footer">
+        <h3>Projeto Vinharia</h3>
+      </div>
+
+      <div class="social">
+        <a href="instagram"><img src="./img/instagram.svg" alt=""></a>
+        <a href="twitter"><img src="./img/twitter.svg" alt=""></a>
+        <a href="facebook"><img src="./img/facebook.svg" alt=""></a>
+        <a href="mail"><img src="./img/mail.svg" alt=""></a>
+      </div>
+  
+      <form action="" class="form-footer">
+        <label for="email">Receba as ofertas de vinho no seu email</label>
+        <input type="text" id="email" placeholder=" Digite seu Email"/>
+        <button>Quero me inscrever</button>
+      </form>
+    </div>
+
+    &copy; Todos os direitos reservados
+
   </footer>
+
 </body>
 </html>

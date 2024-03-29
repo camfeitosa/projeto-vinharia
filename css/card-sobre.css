@@ -1,0 +1,123 @@
+/* Sobre */
+
+.sobre {
+  align-items: center;
+  max-width: 1300px;
+  height: 560px;
+  background-color: #1c1c1e;
+  border-radius: 30px 30px 0 0;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
+
+.sobre h2{
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 28px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vinho-imagem {
+  margin-left: 10rem;
+  position: relative;
+  text-align: left;
+}
+
+.vinho-imagem img {
+  width: 150px; 
+  height: 150px; 
+  max-width: 100%;
+  height: auto;
+}
+
+.text-box {
+  width: 800px;
+  height: 350px;
+  background-image: url(../img/wines.jpg);
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Cinzel Decorative';
+  margin-left: 60px;
+  box-shadow: 10px 10px 10px rgba(0, 10, 0, 0.5); /* Adiciona uma sombra ao redor da text-box */
+}
+
+.text-box h3 {
+  padding: 10px;
+  font-family: 'Cinzel Decorative';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text-box p {
+  background-color: #000000c8;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.saberMais-btn {
+  margin-left: 200px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  background-color: #f2f2f215;
+}
+
+.saberMais-btn:hover {
+  color: #fff;
+  background-color: transparent;
+}
+.frase {
+  position: inherit;
+  background-color: #ffffff85; 
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+}
+
+.frase1 {
+  bottom: 10rem;
+  left: 137px;
+}
+
+.frase2 {
+  bottom: 200px;
+  right: 196px;
+}
+
+.frase3{
+  bottom: 17rem;
+  right: 30px;
+}
+.frase4{
+  bottom: 6rem;
+  right: 25px;
+}
+.frase5{
+  width: 150px;
+  bottom: 11rem;
+  left: 139px;
+}
+.frase6{
+  width: 150px;
+  bottom: 13rem;
+  right: 143px;
+}
