@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Comfortaa:wght@300..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 
 *{
   box-sizing: border-box;
@@ -140,14 +141,20 @@ section, footer{
   
 }
 
-#container-vinhos img{
-  width: 350px;
+#container-vinhos img, h3{
+  width: 120px;
+  font-size: 1rem;
 }
 
 #container-vinhos h2{
-  font-family: 'Cinzel Decorative';
-  font-size: 26px;
+  font-family: 'Comfortaa';
+  font-size: 40px;
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 20px;
+
 }
+
 
 .container-cards{
   display: flex;
@@ -155,9 +162,29 @@ section, footer{
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: #1c1c1e;
-  height: 100vh;
+  background-color: #1c1c1e98;
+  height: 60vh;
   padding: 1rem;
+  border-radius: 10px;
+}
+
+.cards{
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  height: 60vh;
+}
+
+.cards h3, p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'old-standard tt';
+    font-weight: 300;
+}
+
+
+.cards img:hover{
+  transform: scale(1.1);
 }
 
 
